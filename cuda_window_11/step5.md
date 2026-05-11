@@ -1,0 +1,1 @@
+python -m venv venv; .\venv\Scripts\Activate.ps1; python -m pip install --upgrade pip; pip install torch==2.3.1 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121; pip install pandas==2.1.4 numpy==1.26.4 tqdm transformers sentence-transformers bm25s faiss-cpu accelerate hf_transfer
