@@ -1,0 +1,1 @@
+python -c "import torch; print(f'Torch OK: {torch.__version__}'); print(f'GPU Found: {torch.cuda.is_available()}')"
